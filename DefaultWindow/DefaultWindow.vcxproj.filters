@@ -1,0 +1,1105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00. MainGame">
+      <UniqueIdentifier>{111a0e4f-de5d-4515-8768-b9fdf902ebca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Design">
+      <UniqueIdentifier>{2e3c1e3d-5b1c-4993-b4df-2de409ab5f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Design\00. AbstractFactory">
+      <UniqueIdentifier>{a4296873-eef8-46f2-a52e-98a8c96f68b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Design\01. CollisionMgr">
+      <UniqueIdentifier>{d53217cf-4fc4-423e-9af6-7b3094ceca27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Design\02. ObjMgr">
+      <UniqueIdentifier>{a3dfe343-39fa-43a5-b963-080f50d94027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Design\04. KeyMgr">
+      <UniqueIdentifier>{cfbfaae8-4c1a-45eb-a248-446c026f6317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Design\05. ScrollMgr">
+      <UniqueIdentifier>{4a8f14c4-0f20-4d82-9b2f-3f5694b49e62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Design\06. BmpMgr">
+      <UniqueIdentifier>{816f91bf-fcaf-44ca-a3f3-2322909c1163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Design\06. BmpMgr\MyBitmap">
+      <UniqueIdentifier>{3e2e524d-10c0-4bc0-ba99-afd770288333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Design\07. SceneMgr">
+      <UniqueIdentifier>{920ca3a4-1638-46e4-b6b0-2ac0be4cc3b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj">
+      <UniqueIdentifier>{49f72e48-cb18-4e5b-bde9-39646156909b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene">
+      <UniqueIdentifier>{b3c74d6b-7553-45b4-8b71-0a23fb8bfcd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. Logo">
+      <UniqueIdentifier>{218538c4-c1cf-48c3-9125-0dc2f0b85b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\02. MyEdit">
+      <UniqueIdentifier>{3ce2575e-247e-4cd1-935d-75db7b5f5333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\01. MyMenu">
+      <UniqueIdentifier>{0182e048-d069-4db3-9e54-e371cc18b5f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Design\08. TileMgr">
+      <UniqueIdentifier>{dc0d1c7e-440a-47af-9700-40832eb792b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Design\08. TileMgr\Tile">
+      <UniqueIdentifier>{7bbd6a3d-1ac7-4c19-b860-e7d0b2a4e54e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Design\09. TimeMgr">
+      <UniqueIdentifier>{9e100e37-fec9-4b21-9dd7-7143edf3da71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module">
+      <UniqueIdentifier>{8f8ff62f-326b-478b-8a74-881c536c5002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI">
+      <UniqueIdentifier>{a1907308-3fc8-4270-b02c-a8cbc0de2cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State">
+      <UniqueIdentifier>{44a4de1e-ad3d-483c-9a94-424d02aac090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\03. SeriaRoom">
+      <UniqueIdentifier>{a4512d25-2cc6-4106-ad7d-32bf00f85ac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\04. Hendon">
+      <UniqueIdentifier>{e9633ba4-1ecc-4e6e-a5ff-a1637d200a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Expeller">
+      <UniqueIdentifier>{08e1bfab-bf6c-4546-9dd4-4051d3c4d3cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Expeller\NormalAttacked">
+      <UniqueIdentifier>{2960ff64-37d1-4bdf-81a1-bc078a9317ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Expeller\ThrustAttacked">
+      <UniqueIdentifier>{c6a37de9-2b9b-4f95-96e0-4d5152f584cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Expeller\LevitateAttacked">
+      <UniqueIdentifier>{c7eff7ea-9b0c-48ad-99af-b3e060668e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Expeller\Attack1">
+      <UniqueIdentifier>{760dd6b2-77e1-47f7-987d-67b68212bd70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Expeller\Trace">
+      <UniqueIdentifier>{46eeb40e-53b8-4b42-a46f-f11ca678069b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Expeller\Attack2">
+      <UniqueIdentifier>{3a951347-0be9-458c-9341-cd404346f4fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Expeller\Idle">
+      <UniqueIdentifier>{9d6250cc-3047-4b90-a133-99413fb71a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Expeller\Appear">
+      <UniqueIdentifier>{a0e3c038-de38-4e64-b278-b363a5296511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\99. Nest">
+      <UniqueIdentifier>{1ed01424-3540-41c4-b303-1e3d2c280a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\05. Alfhlyra">
+      <UniqueIdentifier>{b3069761-ebb5-4398-b4ba-9e83b3eec8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\06. reshipon1">
+      <UniqueIdentifier>{e28f4364-3409-448f-b193-56b71325fcac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\fmod">
+      <UniqueIdentifier>{0e73da69-47c1-4f15-9430-6d1356b6c4c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\07. reshipon2">
+      <UniqueIdentifier>{dbbe2e6d-7a81-4244-96bf-8c62d4d7763e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys">
+      <UniqueIdentifier>{32d97cbf-af61-495d-b1ae-c4a84da71df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\Attacked">
+      <UniqueIdentifier>{dec9c0db-540c-414a-8fee-bd34e7111ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\Dead">
+      <UniqueIdentifier>{4786fa3d-5036-4775-9e96-808a76bf7292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\Idle">
+      <UniqueIdentifier>{7b6b9192-3ebf-4aa2-a1e1-75a21f09c567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\Trace">
+      <UniqueIdentifier>{5c122e0f-dcb5-4e7a-832d-e9f895eb7b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\Attack1">
+      <UniqueIdentifier>{4c51e0f1-4698-4e14-a10a-83aba65f74e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\Attack2">
+      <UniqueIdentifier>{596936dc-09ae-4f76-8df6-1ddf312103dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\BackStep">
+      <UniqueIdentifier>{08e627c4-4b13-494d-8023-37aca0f92cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\Isys_Appear">
+      <UniqueIdentifier>{f0bcc737-810c-49b4-b0ef-526b6b35b242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\Pattern1">
+      <UniqueIdentifier>{1c65cc9f-3f81-4f2b-aa20-d529a2a5e269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\ThrustAttacked">
+      <UniqueIdentifier>{4deac239-492e-454b-abf6-250cb62b0e39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\LevitateAttacked">
+      <UniqueIdentifier>{24bd1ebe-5bed-4e1a-86f6-f3ad1e8c67b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\NormalAttacked">
+      <UniqueIdentifier>{4ca357c9-5b9e-4aa5-95d8-dd07be8326be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature">
+      <UniqueIdentifier>{163894d4-61d4-4fbd-8e9c-28c3ded07783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature\00. Player">
+      <UniqueIdentifier>{58ecdfc2-7d98-45bd-adc0-4b6da870234f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Effect / HitBox">
+      <UniqueIdentifier>{c70dad47-ee23-489e-aabc-35b503a61f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Effect / HitBox\07. PlayerAttack">
+      <UniqueIdentifier>{7a4e3f2c-8ee8-4bfc-acfe-7610c393dc58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Effect / HitBox\05. MonsterAttack">
+      <UniqueIdentifier>{f5ea2f33-5eee-49e4-8bcb-dc6ffd8f5d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Effect / HitBox\01. Bullet">
+      <UniqueIdentifier>{d11767fc-1090-4158-aa4f-688c6f73cdc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System">
+      <UniqueIdentifier>{b187a6b1-27e2-4189-9d8c-f274adb516ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\04. Button">
+      <UniqueIdentifier>{5aeac9e8-a69d-4bc8-af93-cffc93d75ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\03. Mouse">
+      <UniqueIdentifier>{cb6c1e35-97cb-42f7-9686-df247caae62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature\01. Monster">
+      <UniqueIdentifier>{dd6a12fb-5253-4ff0-a093-35aa1d893d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature\02. NPC">
+      <UniqueIdentifier>{36643676-3252-4e69-9e05-99444757e138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\ITEM">
+      <UniqueIdentifier>{52f05459-4284-4bc6-ae90-e6bef1715ea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Design\03. SoundMgr">
+      <UniqueIdentifier>{0c8d33c2-e735-40c8-a4be-3862637f942f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\Attack3">
+      <UniqueIdentifier>{0763c2d7-a7b8-41a9-815e-997fc19166b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\Attack4 - paze2">
+      <UniqueIdentifier>{792ef20a-3d78-4879-8f0c-91907e43b424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Effect / HitBox\06. MonsterAttack2">
+      <UniqueIdentifier>{bb95e865-63bd-4db7-8fe7-8e6121a5f92e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Effect / HitBox\08. PlayerAttack2">
+      <UniqueIdentifier>{4c3c7d1d-781a-4e11-8f02-45d5e6bb000f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Effect / HitBox\09. Effect">
+      <UniqueIdentifier>{00efc79d-9c55-4e72-a7c9-711fbd6572f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\PrePattern">
+      <UniqueIdentifier>{d2b1f7ec-f6e7-4418-b914-d7190591833c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Expeller\Dead">
+      <UniqueIdentifier>{1cdc8581-11a0-42eb-b69a-183055fa116b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Effect / HitBox\99. NonAlpha">
+      <UniqueIdentifier>{98b32758-e1ce-483a-a0d1-a8cea18fd1d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature\01. Monster\BOSS">
+      <UniqueIdentifier>{c5f11909-a09b-4dde-9b88-10c203ecf28a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature\01. Monster\NORMAL">
+      <UniqueIdentifier>{de7aa4cc-6c71-4605-847c-d3e019ddf735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature\01. Monster\NORMAL\Expeller">
+      <UniqueIdentifier>{39f9f459-c414-4fcf-81a5-0489af25266f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature\01. Monster\NORMAL\Nudeogi">
+      <UniqueIdentifier>{66cfb54b-d898-42b1-87bc-a3463b506a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature\01. Monster\BOSS\Isys">
+      <UniqueIdentifier>{3ec2d3a1-a06e-416a-bc42-17599beeebb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature\01. Monster\BOSS\Skasa">
+      <UniqueIdentifier>{e92b94d9-c60e-4254-a9b2-d26d704c3494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\08. Skasa_Rair">
+      <UniqueIdentifier>{8c3a69d5-81b8-4648-bb17-4c9749a746d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\Pattern2">
+      <UniqueIdentifier>{2a8fa9f3-20c3-4139-8d2b-3ffc78099b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Effect / HitBox\02. Satelite">
+      <UniqueIdentifier>{f6cf32c0-ffff-4d3d-bed4-509c72550bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Effect / HitBox\03. Vertical_Cutsin">
+      <UniqueIdentifier>{9657e6b4-e987-45ce-a47e-25dbcaa236cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature\02. NPC\Seria">
+      <UniqueIdentifier>{15c23e7d-e470-448e-8b90-26fd32882565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature\02. NPC\FallenGirl">
+      <UniqueIdentifier>{95c09dfe-6257-4081-ba2b-e201a393bbfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature\02. NPC\Anise">
+      <UniqueIdentifier>{8fbe34c3-b963-4a0b-a349-9bc8d73b46c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature\02. NPC\Grandis">
+      <UniqueIdentifier>{908dac29-0650-4a02-9e3e-ba37e675eeed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature\02. NPC\Rinus">
+      <UniqueIdentifier>{8757046a-cbfa-4e50-a0f5-3319135ac621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature\02. NPC\Kiri">
+      <UniqueIdentifier>{e4a56b58-9d92-4f06-b01e-46faf73a8118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature\02. NPC\Susia">
+      <UniqueIdentifier>{99a5f522-6415-404a-bbed-f354c58daf12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Effect / HitBox\04. TownCutsin">
+      <UniqueIdentifier>{807d1de2-cc41-4882-93be-bccd7abbb03a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature\01. Monster\NORMAL\Toy">
+      <UniqueIdentifier>{6293bf8b-450a-4568-9f42-1287e2a5d5c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\Pattern3">
+      <UniqueIdentifier>{124e3b56-2826-4bb4-8498-270fb8ae4c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\Creature\01. Monster\NORMAL\RuneStone">
+      <UniqueIdentifier>{44b2d623-7dc9-451f-9c2e-aca729d72766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\Grogy">
+      <UniqueIdentifier>{d4678c26-d0b5-4c16-8e79-36ba5f6334e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Module\AI\State\Isys\Pattern3_Fail">
+      <UniqueIdentifier>{7a29f6f1-4302-422e-bdaf-30c59441e94a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\09. StomPath">
+      <UniqueIdentifier>{ae288870-dd27-4b17-b743-a8b80e0ea1ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\01. UI">
+      <UniqueIdentifier>{30e9feae-20db-482c-b58c-18260c3b91e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\01. UI\UI_Base">
+      <UniqueIdentifier>{91f33d4d-322c-48e9-8df8-a752c15da9a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\01. UI\UI_Shop">
+      <UniqueIdentifier>{334563d9-dae3-45a2-9942-59df9a005899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\01. UI\UI_Hp">
+      <UniqueIdentifier>{a6cb3308-7997-49d9-8f32-5f4d25ba9140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\01. UI\UI_Mp">
+      <UniqueIdentifier>{8db60378-b41e-4410-8e48-f8e32363b8cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\01. UI\UI_Inven">
+      <UniqueIdentifier>{2c4dc0c0-be2a-4223-b8af-07431d0511f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\01. UI\UI_Font">
+      <UniqueIdentifier>{a1dddba6-4e71-4df9-9cfb-21e94356bdc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\01. UI\UI_HpBar">
+      <UniqueIdentifier>{1f639786-7f75-4801-95c5-5696c069de29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\01. UI\UI_Portrait">
+      <UniqueIdentifier>{34e54d1a-3abe-4c3b-bbf3-4178014459bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\01. UI\UI_MonHpNum">
+      <UniqueIdentifier>{664e8cde-6662-4eee-a39a-2e5082232e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\01. UI\UI_Alpha">
+      <UniqueIdentifier>{4ae0f1b8-ac0c-45c4-99e0-b2ee986ec949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\01. UI\UI_SkillIcon_2">
+      <UniqueIdentifier>{db585ebb-3cf9-4162-bc5d-4ec9755da35e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\01. UI\UI_Combo">
+      <UniqueIdentifier>{58ed9252-c2c1-42d6-bbc5-b37b817c547f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\01. UI\UI_AlphaObject">
+      <UniqueIdentifier>{2bb9a5e4-db06-44fd-8211-052775d99826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\01. UI\UI_SkillIcon">
+      <UniqueIdentifier>{7fe8a02f-bc51-438c-be13-0f2a63a9cee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\01. UI\UI_MonsterType">
+      <UniqueIdentifier>{aef815b8-b16d-4bed-bfe6-c31e40ad73c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Obj\System\01. UI\UI_Info">
+      <UniqueIdentifier>{dc8d8289-ef30-43be-8076-b7a394ca60e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultWindow.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>03. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>03. Obj\Creature\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>03. Obj\Effect / HitBox\01. Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>02. Design\00. AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>03. Obj\Creature\01. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CollsionMgr.h">
+      <Filter>02. Design\01. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>03. Obj\System\03. Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>02. Design\02. ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>02. Design\04. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>02. Design\05. ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBitmap.h">
+      <Filter>02. Design\06. BmpMgr\MyBitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpMgr.h">
+      <Filter>02. Design\06. BmpMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>01. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>02. Design\07. SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>01. Scene\01. MyMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>03. Obj\System\04. Button</Filter>
+    </ClInclude>
+    <ClInclude Include="SeriaRoom.h">
+      <Filter>01. Scene\03. SeriaRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMgr.h">
+      <Filter>02. Design\08. TileMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TileNode.h">
+      <Filter>02. Design\08. TileMgr\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit_SeriaRoom.h">
+      <Filter>01. Scene\02. MyEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>02. Design\09. TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>99. Module\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>99. Module\AI\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Hendon.h">
+      <Filter>01. Scene\04. Hendon</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit_Hendon.h">
+      <Filter>01. Scene\02. MyEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>03. Obj\System\01. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Base.h">
+      <Filter>03. Obj\System\01. UI\UI_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Shop.h">
+      <Filter>03. Obj\System\01. UI\UI_Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Hp.h">
+      <Filter>03. Obj\System\01. UI\UI_Hp</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Mp.h">
+      <Filter>03. Obj\System\01. UI\UI_Mp</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>02. Design\03. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_Idle.h">
+      <Filter>99. Module\AI\State\Isys\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_Trace.h">
+      <Filter>99. Module\AI\State\Isys\Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_Attack1.h">
+      <Filter>99. Module\AI\State\Isys\Attack1</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterAttack.h">
+      <Filter>03. Obj\Effect / HitBox\05. MonsterAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAttack.h">
+      <Filter>03. Obj\Effect / HitBox\07. PlayerAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_Attacked.h">
+      <Filter>99. Module\AI\State\Isys\Attacked</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>03. Obj\Effect / HitBox\09. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys.h">
+      <Filter>03. Obj\Creature\01. Monster\BOSS\Isys</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_Attack2.h">
+      <Filter>99. Module\AI\State\Isys\Attack2</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_BackStep.h">
+      <Filter>99. Module\AI\State\Isys\BackStep</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_ThrustAttacked.h">
+      <Filter>99. Module\AI\State\Isys\ThrustAttacked</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_LevitateAttacked.h">
+      <Filter>99. Module\AI\State\Isys\LevitateAttacked</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_NormalAttacked.h">
+      <Filter>99. Module\AI\State\Isys\NormalAttacked</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_Appear.h">
+      <Filter>99. Module\AI\State\Isys\Isys_Appear</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_Pattern1.h">
+      <Filter>99. Module\AI\State\Isys\Pattern1</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit_Nest.h">
+      <Filter>01. Scene\02. MyEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="Nest.h">
+      <Filter>01. Scene\99. Nest</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>01. Scene\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Expeller.h">
+      <Filter>03. Obj\Creature\01. Monster\NORMAL\Expeller</Filter>
+    </ClInclude>
+    <ClInclude Include="Exp_NormalAttacked.h">
+      <Filter>99. Module\AI\State\Expeller\NormalAttacked</Filter>
+    </ClInclude>
+    <ClInclude Include="Exp_ThrustAttacked.h">
+      <Filter>99. Module\AI\State\Expeller\ThrustAttacked</Filter>
+    </ClInclude>
+    <ClInclude Include="Exp_LevitateAttacked.h">
+      <Filter>99. Module\AI\State\Expeller\LevitateAttacked</Filter>
+    </ClInclude>
+    <ClInclude Include="Exp_Attack1.h">
+      <Filter>99. Module\AI\State\Expeller\Attack1</Filter>
+    </ClInclude>
+    <ClInclude Include="Exp_Trace.h">
+      <Filter>99. Module\AI\State\Expeller\Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="Exp_Attack2.h">
+      <Filter>99. Module\AI\State\Expeller\Attack2</Filter>
+    </ClInclude>
+    <ClInclude Include="Exp_Idle.h">
+      <Filter>99. Module\AI\State\Expeller\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="Exp_Appear.h">
+      <Filter>99. Module\AI\State\Expeller\Appear</Filter>
+    </ClInclude>
+    <ClInclude Include="Alfhlyra.h">
+      <Filter>01. Scene\05. Alfhlyra</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit_Alfhlyra.h">
+      <Filter>01. Scene\02. MyEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.h">
+      <Filter>헤더 파일\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.hpp">
+      <Filter>헤더 파일\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_codec.h">
+      <Filter>헤더 파일\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_dsp.h">
+      <Filter>헤더 파일\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_errors.h">
+      <Filter>헤더 파일\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_memoryinfo.h">
+      <Filter>헤더 파일\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_output.h">
+      <Filter>헤더 파일\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit_Reshipon1.h">
+      <Filter>01. Scene\02. MyEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="Reshipon1.h">
+      <Filter>01. Scene\06. reshipon1</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit_Reshipon2.h">
+      <Filter>01. Scene\02. MyEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="Reshipon2.h">
+      <Filter>01. Scene\07. reshipon2</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>03. Obj\ITEM</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Font.h">
+      <Filter>03. Obj\System\01. UI\UI_Font</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_BossHp.h">
+      <Filter>03. Obj\System\01. UI\UI_HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_BossBar.h">
+      <Filter>03. Obj\System\01. UI\UI_HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Portrait.h">
+      <Filter>03. Obj\System\01. UI\UI_Portrait</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_MonHpNum.h">
+      <Filter>03. Obj\System\01. UI\UI_MonHpNum</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Inven.h">
+      <Filter>03. Obj\System\01. UI\UI_Inven</Filter>
+    </ClInclude>
+    <ClInclude Include="MousePoint.h">
+      <Filter>03. Obj\System\03. Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreItem.h">
+      <Filter>03. Obj\ITEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_Attack3.h">
+      <Filter>99. Module\AI\State\Isys\Attack3</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_Razor.h">
+      <Filter>99. Module\AI\State\Isys\Attack4 - paze2</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterAttack2.h">
+      <Filter>03. Obj\Effect / HitBox\06. MonsterAttack2</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAttack2.h">
+      <Filter>03. Obj\Effect / HitBox\08. PlayerAttack2</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_PrePattern.h">
+      <Filter>99. Module\AI\State\Isys\PrePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_Dead.h">
+      <Filter>99. Module\AI\State\Isys\Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_SkillIcon.h">
+      <Filter>03. Obj\System\01. UI\UI_SkillIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Alpha.h">
+      <Filter>03. Obj\System\01. UI\UI_Alpha</Filter>
+    </ClInclude>
+    <ClInclude Include="Nudeogi.h">
+      <Filter>03. Obj\Creature\01. Monster\NORMAL\Nudeogi</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_MonsterBar.h">
+      <Filter>03. Obj\System\01. UI\UI_HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_MonsterHp.h">
+      <Filter>03. Obj\System\01. UI\UI_HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Exp_Dead.h">
+      <Filter>99. Module\AI\State\Expeller\Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="NonAlpha.h">
+      <Filter>03. Obj\Effect / HitBox\99. NonAlpha</Filter>
+    </ClInclude>
+    <ClInclude Include="Skasa.h">
+      <Filter>03. Obj\Creature\01. Monster\BOSS\Skasa</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_SkillIcon_2.h">
+      <Filter>03. Obj\System\01. UI\UI_SkillIcon_2</Filter>
+    </ClInclude>
+    <ClInclude Include="SkasaRair.h">
+      <Filter>01. Scene\08. Skasa_Rair</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit_SkasaRair.h">
+      <Filter>01. Scene\02. MyEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Combo.h">
+      <Filter>03. Obj\System\01. UI\UI_Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_AlphaObject.h">
+      <Filter>03. Obj\System\01. UI\UI_AlphaObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_Pattern2.h">
+      <Filter>99. Module\AI\State\Isys\Pattern2</Filter>
+    </ClInclude>
+    <ClInclude Include="Satelite.h">
+      <Filter>03. Obj\Effect / HitBox\02. Satelite</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertical.h">
+      <Filter>03. Obj\Effect / HitBox\03. Vertical_Cutsin</Filter>
+    </ClInclude>
+    <ClInclude Include="Seria.h">
+      <Filter>03. Obj\Creature\02. NPC\Seria</Filter>
+    </ClInclude>
+    <ClInclude Include="FallenGirl.h">
+      <Filter>03. Obj\Creature\02. NPC\FallenGirl</Filter>
+    </ClInclude>
+    <ClInclude Include="Anise.h">
+      <Filter>03. Obj\Creature\02. NPC\Anise</Filter>
+    </ClInclude>
+    <ClInclude Include="Grandis.h">
+      <Filter>03. Obj\Creature\02. NPC\Grandis</Filter>
+    </ClInclude>
+    <ClInclude Include="Rinus.h">
+      <Filter>03. Obj\Creature\02. NPC\Rinus</Filter>
+    </ClInclude>
+    <ClInclude Include="Kiri.h">
+      <Filter>03. Obj\Creature\02. NPC\Kiri</Filter>
+    </ClInclude>
+    <ClInclude Include="Susia.h">
+      <Filter>03. Obj\Creature\02. NPC\Susia</Filter>
+    </ClInclude>
+    <ClInclude Include="TownCutsin.h">
+      <Filter>03. Obj\Effect / HitBox\04. TownCutsin</Filter>
+    </ClInclude>
+    <ClInclude Include="Toy.h">
+      <Filter>03. Obj\Creature\01. Monster\NORMAL\Toy</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_Pattern3.h">
+      <Filter>99. Module\AI\State\Isys\Pattern3</Filter>
+    </ClInclude>
+    <ClInclude Include="RuneStone.h">
+      <Filter>03. Obj\Creature\01. Monster\NORMAL\RuneStone</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_P3_Fail.h">
+      <Filter>99. Module\AI\State\Isys\Pattern3_Fail</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_MonsterType.h">
+      <Filter>03. Obj\System\01. UI\UI_MonsterType</Filter>
+    </ClInclude>
+    <ClInclude Include="Isys_Grogy.h">
+      <Filter>99. Module\AI\State\Isys\Grogy</Filter>
+    </ClInclude>
+    <ClInclude Include="StomPath.h">
+      <Filter>01. Scene\09. StomPath</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit_StomPath.h">
+      <Filter>01. Scene\02. MyEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Info.h">
+      <Filter>03. Obj\System\01. UI\UI_Info</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>03. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>03. Obj\Creature\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>03. Obj\Effect / HitBox\01. Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>03. Obj\Creature\01. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CollsionMgr.cpp">
+      <Filter>02. Design\01. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>03. Obj\System\03. Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>02. Design\02. ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>02. Design\04. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>02. Design\05. ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBitmap.cpp">
+      <Filter>02. Design\06. BmpMgr\MyBitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpMgr.cpp">
+      <Filter>02. Design\06. BmpMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>01. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>01. Scene\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>02. Design\07. SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMenu.cpp">
+      <Filter>01. Scene\01. MyMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>03. Obj\System\04. Button</Filter>
+    </ClCompile>
+    <ClCompile Include="SeriaRoom.cpp">
+      <Filter>01. Scene\03. SeriaRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMgr.cpp">
+      <Filter>02. Design\08. TileMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TileNode.cpp">
+      <Filter>02. Design\08. TileMgr\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit_SeriaRoom.cpp">
+      <Filter>01. Scene\02. MyEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>02. Design\09. TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>99. Module\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>99. Module\AI\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Hendon.cpp">
+      <Filter>01. Scene\04. Hendon</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit_Hendon.cpp">
+      <Filter>01. Scene\02. MyEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>03. Obj\System\01. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Base.cpp">
+      <Filter>03. Obj\System\01. UI\UI_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Shop.cpp">
+      <Filter>03. Obj\System\01. UI\UI_Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Hp.cpp">
+      <Filter>03. Obj\System\01. UI\UI_Hp</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Mp.cpp">
+      <Filter>03. Obj\System\01. UI\UI_Mp</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>02. Design\03. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_Idle.cpp">
+      <Filter>99. Module\AI\State\Isys\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_Trace.cpp">
+      <Filter>99. Module\AI\State\Isys\Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_Attack1.cpp">
+      <Filter>99. Module\AI\State\Isys\Attack1</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterAttack.cpp">
+      <Filter>03. Obj\Effect / HitBox\05. MonsterAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAttack.cpp">
+      <Filter>03. Obj\Effect / HitBox\07. PlayerAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_Attacked.cpp">
+      <Filter>99. Module\AI\State\Isys\Attacked</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>03. Obj\Effect / HitBox\09. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys.cpp">
+      <Filter>03. Obj\Creature\01. Monster\BOSS\Isys</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_Attack2.cpp">
+      <Filter>99. Module\AI\State\Isys\Attack2</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_BackStep.cpp">
+      <Filter>99. Module\AI\State\Isys\BackStep</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_ThrustAttacked.cpp">
+      <Filter>99. Module\AI\State\Isys\ThrustAttacked</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_LevitateAttacked.cpp">
+      <Filter>99. Module\AI\State\Isys\LevitateAttacked</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_NormalAttacked.cpp">
+      <Filter>99. Module\AI\State\Isys\NormalAttacked</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_Appear.cpp">
+      <Filter>99. Module\AI\State\Isys\Isys_Appear</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_Pattern1.cpp">
+      <Filter>99. Module\AI\State\Isys\Pattern1</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit_Nest.cpp">
+      <Filter>01. Scene\02. MyEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="Nest.cpp">
+      <Filter>01. Scene\99. Nest</Filter>
+    </ClCompile>
+    <ClCompile Include="Expeller.cpp">
+      <Filter>03. Obj\Creature\01. Monster\NORMAL\Expeller</Filter>
+    </ClCompile>
+    <ClCompile Include="Exp_NormalAttacked.cpp">
+      <Filter>99. Module\AI\State\Expeller\NormalAttacked</Filter>
+    </ClCompile>
+    <ClCompile Include="Exp_ThrustAttacked.cpp">
+      <Filter>99. Module\AI\State\Expeller\ThrustAttacked</Filter>
+    </ClCompile>
+    <ClCompile Include="Exp_LevitateAttacked.cpp">
+      <Filter>99. Module\AI\State\Expeller\LevitateAttacked</Filter>
+    </ClCompile>
+    <ClCompile Include="Exp_Attack1.cpp">
+      <Filter>99. Module\AI\State\Expeller\Attack1</Filter>
+    </ClCompile>
+    <ClCompile Include="Exp_Trace.cpp">
+      <Filter>99. Module\AI\State\Expeller\Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="Exp_Attack2.cpp">
+      <Filter>99. Module\AI\State\Expeller\Attack2</Filter>
+    </ClCompile>
+    <ClCompile Include="Exp_Idle.cpp">
+      <Filter>99. Module\AI\State\Expeller\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="Exp_Appear.cpp">
+      <Filter>99. Module\AI\State\Expeller\Appear</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultWindow.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Alfhlyra.cpp">
+      <Filter>01. Scene\05. Alfhlyra</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit_Alfhlyra.cpp">
+      <Filter>01. Scene\02. MyEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit_Reshipon1.cpp">
+      <Filter>01. Scene\02. MyEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="Reshipon1.cpp">
+      <Filter>01. Scene\06. reshipon1</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit_Reshipon2.cpp">
+      <Filter>01. Scene\02. MyEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="Reshipon2.cpp">
+      <Filter>01. Scene\07. reshipon2</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>03. Obj\ITEM</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Font.cpp">
+      <Filter>03. Obj\System\01. UI\UI_Font</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_BossHp.cpp">
+      <Filter>03. Obj\System\01. UI\UI_HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_BossBar.cpp">
+      <Filter>03. Obj\System\01. UI\UI_HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Portrait.cpp">
+      <Filter>03. Obj\System\01. UI\UI_Portrait</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_MonHpNum.cpp">
+      <Filter>03. Obj\System\01. UI\UI_MonHpNum</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Inven.cpp">
+      <Filter>03. Obj\System\01. UI\UI_Inven</Filter>
+    </ClCompile>
+    <ClCompile Include="MousePoint.cpp">
+      <Filter>03. Obj\System\03. Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreItem.cpp">
+      <Filter>03. Obj\ITEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_Attack3.cpp">
+      <Filter>99. Module\AI\State\Isys\Attack3</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_Razor.cpp">
+      <Filter>99. Module\AI\State\Isys\Attack4 - paze2</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterAttack2.cpp">
+      <Filter>03. Obj\Effect / HitBox\06. MonsterAttack2</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAttack2.cpp">
+      <Filter>03. Obj\Effect / HitBox\08. PlayerAttack2</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_PrePattern.cpp">
+      <Filter>99. Module\AI\State\Isys\PrePattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_Dead.cpp">
+      <Filter>99. Module\AI\State\Isys\Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_SkillIcon.cpp">
+      <Filter>03. Obj\System\01. UI\UI_SkillIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Alpha.cpp">
+      <Filter>03. Obj\System\01. UI\UI_Alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="Nudeogi.cpp">
+      <Filter>03. Obj\Creature\01. Monster\NORMAL\Nudeogi</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_MonsterBar.cpp">
+      <Filter>03. Obj\System\01. UI\UI_HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_MonsterHp.cpp">
+      <Filter>03. Obj\System\01. UI\UI_HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Exp_Dead.cpp">
+      <Filter>99. Module\AI\State\Expeller\Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="NonAlpha.cpp">
+      <Filter>03. Obj\Effect / HitBox\99. NonAlpha</Filter>
+    </ClCompile>
+    <ClCompile Include="Skasa.cpp">
+      <Filter>03. Obj\Creature\01. Monster\BOSS\Skasa</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_SkillIcon_2.cpp">
+      <Filter>03. Obj\System\01. UI\UI_SkillIcon_2</Filter>
+    </ClCompile>
+    <ClCompile Include="SkasaRair.cpp">
+      <Filter>01. Scene\08. Skasa_Rair</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit_SkasaRair.cpp">
+      <Filter>01. Scene\02. MyEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Combo.cpp">
+      <Filter>03. Obj\System\01. UI\UI_Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_AlphaObject.cpp">
+      <Filter>03. Obj\System\01. UI\UI_AlphaObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_Pattern2.cpp">
+      <Filter>99. Module\AI\State\Isys\Pattern2</Filter>
+    </ClCompile>
+    <ClCompile Include="Satelite.cpp">
+      <Filter>03. Obj\Effect / HitBox\02. Satelite</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertical.cpp">
+      <Filter>03. Obj\Effect / HitBox\03. Vertical_Cutsin</Filter>
+    </ClCompile>
+    <ClCompile Include="Seria.cpp">
+      <Filter>03. Obj\Creature\02. NPC\Seria</Filter>
+    </ClCompile>
+    <ClCompile Include="FallenGirl.cpp">
+      <Filter>03. Obj\Creature\02. NPC\FallenGirl</Filter>
+    </ClCompile>
+    <ClCompile Include="Anise.cpp">
+      <Filter>03. Obj\Creature\02. NPC\Anise</Filter>
+    </ClCompile>
+    <ClCompile Include="Grandis.cpp">
+      <Filter>03. Obj\Creature\02. NPC\Grandis</Filter>
+    </ClCompile>
+    <ClCompile Include="Rinus.cpp">
+      <Filter>03. Obj\Creature\02. NPC\Rinus</Filter>
+    </ClCompile>
+    <ClCompile Include="Kiri.cpp">
+      <Filter>03. Obj\Creature\02. NPC\Kiri</Filter>
+    </ClCompile>
+    <ClCompile Include="Susia.cpp">
+      <Filter>03. Obj\Creature\02. NPC\Susia</Filter>
+    </ClCompile>
+    <ClCompile Include="TownCutsin.cpp">
+      <Filter>03. Obj\Effect / HitBox\04. TownCutsin</Filter>
+    </ClCompile>
+    <ClCompile Include="Toy.cpp">
+      <Filter>03. Obj\Creature\01. Monster\NORMAL\Toy</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_Pattern3.cpp">
+      <Filter>99. Module\AI\State\Isys\Pattern3</Filter>
+    </ClCompile>
+    <ClCompile Include="RuneStone.cpp">
+      <Filter>03. Obj\Creature\01. Monster\NORMAL\RuneStone</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_P3_Fail.cpp">
+      <Filter>99. Module\AI\State\Isys\Pattern3_Fail</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_MonsterType.cpp">
+      <Filter>03. Obj\System\01. UI\UI_MonsterType</Filter>
+    </ClCompile>
+    <ClCompile Include="Isys_Grogy.cpp">
+      <Filter>99. Module\AI\State\Isys\Grogy</Filter>
+    </ClCompile>
+    <ClCompile Include="StomPath.cpp">
+      <Filter>01. Scene\09. StomPath</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit_StomPath.cpp">
+      <Filter>01. Scene\02. MyEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Info.cpp">
+      <Filter>03. Obj\System\01. UI\UI_Info</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DefaultWindow.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="DefaultWindow.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fmodex.dll">
+      <Filter>헤더 파일\fmod</Filter>
+    </None>
+    <None Include="fmodexL.dll">
+      <Filter>헤더 파일\fmod</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="fmodex_vc.lib">
+      <Filter>헤더 파일\fmod</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>헤더 파일\fmod</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

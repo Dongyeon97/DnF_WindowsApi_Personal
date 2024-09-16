@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D348BD3D-D539-47BF-B091-A446EBEED90B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DefaultWindow</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>WinApi_DNF</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractFactory.h" />
+    <ClInclude Include="AI.h" />
+    <ClInclude Include="Anise.h" />
+    <ClInclude Include="BmpMgr.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="CollsionMgr.h" />
+    <ClInclude Include="Edit_SkasaRair.h" />
+    <ClInclude Include="Edit_StomPath.h" />
+    <ClInclude Include="FallenGirl.h" />
+    <ClInclude Include="Grandis.h" />
+    <ClInclude Include="Isys_Grogy.h" />
+    <ClInclude Include="Isys_P3_Fail.h" />
+    <ClInclude Include="Isys_Pattern2.h" />
+    <ClInclude Include="Isys_Pattern3.h" />
+    <ClInclude Include="Kiri.h" />
+    <ClInclude Include="Rinus.h" />
+    <ClInclude Include="RuneStone.h" />
+    <ClInclude Include="Satelite.h" />
+    <ClInclude Include="SkasaRair.h" />
+    <ClInclude Include="Skasa.h" />
+    <ClInclude Include="Edit_Alfhlyra.h" />
+    <ClInclude Include="Edit_Hendon.h" />
+    <ClInclude Include="Edit_Nest.h" />
+    <ClInclude Include="Edit_Reshipon1.h" />
+    <ClInclude Include="Edit_Reshipon2.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="Expeller.h" />
+    <ClInclude Include="Exp_Appear.h" />
+    <ClInclude Include="Exp_Attack2.h" />
+    <ClInclude Include="Exp_Dead.h" />
+    <ClInclude Include="Exp_Idle.h" />
+    <ClInclude Include="Exp_Trace.h" />
+    <ClInclude Include="fmod.h" />
+    <ClInclude Include="fmod.hpp" />
+    <ClInclude Include="fmod_codec.h" />
+    <ClInclude Include="fmod_dsp.h" />
+    <ClInclude Include="fmod_errors.h" />
+    <ClInclude Include="fmod_memoryinfo.h" />
+    <ClInclude Include="fmod_output.h" />
+    <ClInclude Include="Hendon.h" />
+    <ClInclude Include="Isys.h" />
+    <ClInclude Include="Isys_Appear.h" />
+    <ClInclude Include="Isys_Attack2.h" />
+    <ClInclude Include="Isys_Attack3.h" />
+    <ClInclude Include="Isys_BackStep.h" />
+    <ClInclude Include="Isys_Dead.h" />
+    <ClInclude Include="Isys_Pattern1.h" />
+    <ClInclude Include="Isys_PrePattern.h" />
+    <ClInclude Include="Isys_Razor.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="NonAlpha.h" />
+    <ClInclude Include="Nudeogi.h" />
+    <ClInclude Include="MonsterAttack.h" />
+    <ClInclude Include="Isys_LevitateAttacked.h" />
+    <ClInclude Include="Isys_NormalAttacked.h" />
+    <ClInclude Include="Isys_ThrustAttacked.h" />
+    <ClInclude Include="Exp_Attack1.h" />
+    <ClInclude Include="Exp_LevitateAttacked.h" />
+    <ClInclude Include="Exp_NormalAttacked.h" />
+    <ClInclude Include="Exp_ThrustAttacked.h" />
+    <ClInclude Include="MonsterAttack2.h" />
+    <ClInclude Include="MousePoint.h" />
+    <ClInclude Include="Nest.h" />
+    <ClInclude Include="PlayerAttack.h" />
+    <ClInclude Include="Alfhlyra.h" />
+    <ClInclude Include="PlayerAttack2.h" />
+    <ClInclude Include="Reshipon1.h" />
+    <ClInclude Include="Reshipon2.h" />
+    <ClInclude Include="Seria.h" />
+    <ClInclude Include="SoundMgr.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="DefaultWindow.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="KeyMgr.h" />
+    <ClInclude Include="Logo.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="MyBitmap.h" />
+    <ClInclude Include="MyButton.h" />
+    <ClInclude Include="Edit_SeriaRoom.h" />
+    <ClInclude Include="MyMenu.h" />
+    <ClInclude Include="Obj.h" />
+    <ClInclude Include="ObjMgr.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneMgr.h" />
+    <ClInclude Include="ScrollMgr.h" />
+    <ClInclude Include="SeriaRoom.h" />
+    <ClInclude Include="Isys_Attack1.h" />
+    <ClInclude Include="Isys_Attacked.h" />
+    <ClInclude Include="Isys_Idle.h" />
+    <ClInclude Include="Isys_Trace.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StomPath.h" />
+    <ClInclude Include="StoreItem.h" />
+    <ClInclude Include="Susia.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TileNode.h" />
+    <ClInclude Include="TileMgr.h" />
+    <ClInclude Include="TimeMgr.h" />
+    <ClInclude Include="TownCutsin.h" />
+    <ClInclude Include="Toy.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="UI_Alpha.h" />
+    <ClInclude Include="UI_AlphaObject.h" />
+    <ClInclude Include="UI_Base.h" />
+    <ClInclude Include="UI_BossBar.h" />
+    <ClInclude Include="UI_Combo.h" />
+    <ClInclude Include="UI_Font.h" />
+    <ClInclude Include="UI_Hp.h" />
+    <ClInclude Include="UI_BossHp.h" />
+    <ClInclude Include="UI_Info.h" />
+    <ClInclude Include="UI_Inven.h" />
+    <ClInclude Include="UI_MonHpNum.h" />
+    <ClInclude Include="UI_MonsterBar.h" />
+    <ClInclude Include="UI_MonsterHp.h" />
+    <ClInclude Include="UI_MonsterType.h" />
+    <ClInclude Include="UI_Mp.h" />
+    <ClInclude Include="UI_Portrait.h" />
+    <ClInclude Include="UI_Shop.h" />
+    <ClInclude Include="UI_SkillIcon.h" />
+    <ClInclude Include="UI_SkillIcon_2.h" />
+    <ClInclude Include="Vertical.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AI.cpp" />
+    <ClCompile Include="Anise.cpp" />
+    <ClCompile Include="BmpMgr.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="CollsionMgr.cpp" />
+    <ClCompile Include="Edit_SkasaRair.cpp" />
+    <ClCompile Include="Edit_StomPath.cpp" />
+    <ClCompile Include="FallenGirl.cpp" />
+    <ClCompile Include="Grandis.cpp" />
+    <ClCompile Include="Isys_Grogy.cpp" />
+    <ClCompile Include="Isys_P3_Fail.cpp" />
+    <ClCompile Include="Isys_Pattern2.cpp" />
+    <ClCompile Include="Isys_Pattern3.cpp" />
+    <ClCompile Include="Kiri.cpp" />
+    <ClCompile Include="Rinus.cpp" />
+    <ClCompile Include="RuneStone.cpp" />
+    <ClCompile Include="Satelite.cpp" />
+    <ClCompile Include="SkasaRair.cpp" />
+    <ClCompile Include="Skasa.cpp" />
+    <ClCompile Include="Edit_Alfhlyra.cpp" />
+    <ClCompile Include="Edit_Hendon.cpp" />
+    <ClCompile Include="Edit_Nest.cpp" />
+    <ClCompile Include="Edit_Reshipon1.cpp" />
+    <ClCompile Include="Edit_Reshipon2.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="Expeller.cpp" />
+    <ClCompile Include="Exp_Appear.cpp" />
+    <ClCompile Include="Exp_Attack2.cpp" />
+    <ClCompile Include="Exp_Dead.cpp" />
+    <ClCompile Include="Exp_Idle.cpp" />
+    <ClCompile Include="Exp_Trace.cpp" />
+    <ClCompile Include="Hendon.cpp" />
+    <ClCompile Include="Isys.cpp" />
+    <ClCompile Include="Isys_Appear.cpp" />
+    <ClCompile Include="Isys_Attack2.cpp" />
+    <ClCompile Include="Isys_Attack3.cpp" />
+    <ClCompile Include="Isys_BackStep.cpp" />
+    <ClCompile Include="Isys_Dead.cpp" />
+    <ClCompile Include="Isys_Pattern1.cpp" />
+    <ClCompile Include="Isys_PrePattern.cpp" />
+    <ClCompile Include="Isys_Razor.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="NonAlpha.cpp" />
+    <ClCompile Include="Nudeogi.cpp" />
+    <ClCompile Include="MonsterAttack.cpp" />
+    <ClCompile Include="Isys_LevitateAttacked.cpp" />
+    <ClCompile Include="Isys_NormalAttacked.cpp" />
+    <ClCompile Include="Isys_ThrustAttacked.cpp" />
+    <ClCompile Include="Exp_Attack1.cpp" />
+    <ClCompile Include="Exp_LevitateAttacked.cpp" />
+    <ClCompile Include="Exp_NormalAttacked.cpp" />
+    <ClCompile Include="Exp_ThrustAttacked.cpp" />
+    <ClCompile Include="MonsterAttack2.cpp" />
+    <ClCompile Include="MousePoint.cpp" />
+    <ClCompile Include="Nest.cpp" />
+    <ClCompile Include="PlayerAttack.cpp" />
+    <ClCompile Include="Alfhlyra.cpp" />
+    <ClCompile Include="PlayerAttack2.cpp" />
+    <ClCompile Include="Reshipon1.cpp" />
+    <ClCompile Include="Reshipon2.cpp" />
+    <ClCompile Include="Seria.cpp" />
+    <ClCompile Include="SoundMgr.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="DefaultWindow.cpp" />
+    <ClCompile Include="KeyMgr.cpp" />
+    <ClCompile Include="Logo.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="MyBitmap.cpp" />
+    <ClCompile Include="MyButton.cpp" />
+    <ClCompile Include="Edit_SeriaRoom.cpp" />
+    <ClCompile Include="MyMenu.cpp" />
+    <ClCompile Include="Obj.cpp" />
+    <ClCompile Include="ObjMgr.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneMgr.cpp" />
+    <ClCompile Include="ScrollMgr.cpp" />
+    <ClCompile Include="SeriaRoom.cpp" />
+    <ClCompile Include="Isys_Attack1.cpp" />
+    <ClCompile Include="Isys_Attacked.cpp" />
+    <ClCompile Include="Isys_Idle.cpp" />
+    <ClCompile Include="Isys_Trace.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StomPath.cpp" />
+    <ClCompile Include="StoreItem.cpp" />
+    <ClCompile Include="Susia.cpp" />
+    <ClCompile Include="TileNode.cpp" />
+    <ClCompile Include="TileMgr.cpp" />
+    <ClCompile Include="TimeMgr.cpp" />
+    <ClCompile Include="TownCutsin.cpp" />
+    <ClCompile Include="Toy.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="UI_Alpha.cpp" />
+    <ClCompile Include="UI_AlphaObject.cpp" />
+    <ClCompile Include="UI_Base.cpp" />
+    <ClCompile Include="UI_BossBar.cpp" />
+    <ClCompile Include="UI_Combo.cpp" />
+    <ClCompile Include="UI_Font.cpp" />
+    <ClCompile Include="UI_Hp.cpp" />
+    <ClCompile Include="UI_BossHp.cpp" />
+    <ClCompile Include="UI_Info.cpp" />
+    <ClCompile Include="UI_Inven.cpp" />
+    <ClCompile Include="UI_MonHpNum.cpp" />
+    <ClCompile Include="UI_MonsterBar.cpp" />
+    <ClCompile Include="UI_MonsterHp.cpp" />
+    <ClCompile Include="UI_MonsterType.cpp" />
+    <ClCompile Include="UI_Mp.cpp" />
+    <ClCompile Include="UI_Portrait.cpp" />
+    <ClCompile Include="UI_Shop.cpp" />
+    <ClCompile Include="UI_SkillIcon.cpp" />
+    <ClCompile Include="UI_SkillIcon_2.cpp" />
+    <ClCompile Include="Vertical.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DefaultWindow.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="DefaultWindow.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fmodex.dll" />
+    <None Include="fmodexL.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="fmodex_vc.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
